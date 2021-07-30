@@ -13,7 +13,8 @@ body{
 
 #header{
     width:100%;
-    text-align:center;
+    text-align: center;
+    margin-top: 50px;
    
 }
 img{
@@ -74,13 +75,17 @@ a:link{
   
 }
 
+
+/* text on recipes styling */
 .text-block{
   position: relative;
   bottom: 235px;
   right: 15px;
-  left: 15px;
+  left: 116px;
   background-color: rgba(250, 242, 232, 0.781);
   color: rgb(65,82,45);
+  text-align: center;
+  width: 127px;
 }
 
 /* end recipe pictures */
