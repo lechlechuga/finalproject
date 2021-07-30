@@ -72,7 +72,15 @@ a:link{
   display: table;
   clear: both;
   
- 
+}
+
+.text-block{
+  position: relative;
+  bottom: 235px;
+  right: 15px;
+  left: 15px;
+  background-color: rgba(250, 242, 232, 0.781);
+  color: rgb(65,82,45);
 }
 
 /* end recipe pictures */
@@ -81,6 +89,7 @@ a:link{
 /* fonts */
 p{
   font-family: 'Montserrat', sans-serif;
+
 }
 h1{
   font-family: 'Montserrat', sans-serif;
@@ -94,7 +103,7 @@ h2{
 }
 h4{
   font-family: 'Montserrat', sans-serif;
-  
+
 }
 
 
@@ -106,7 +115,9 @@ h4{
   border-radius: 50%;
 
 }
-
+#abt-text{
+  text-align: right;
+}
 
 
 #footer {
