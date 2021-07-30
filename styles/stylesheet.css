@@ -10,36 +10,84 @@ body{
   #content-wrap {
     padding-bottom: 2.5rem;    /* Footer height */
   }
-  
-  #footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;            /* Footer height */
-  }
+
 #header{
     width:100%;
     text-align:center;
+   
 }
 img{
     height: 350px;
     width: 350px;
     text-align: center;
 }
-a:link{
-    text-decoration: none;
-}
-a:visited {
-    text-decoration-color: rgb(255, 0, 0);
-  }
-  a:hover {
-    background-color: cadetblue;
-  }
+
 nav{
     display:block;
     position: relative;
     background-color: rgb(188,205,90);
     padding:25px;
     text-align: center;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 900;
     
 }
+
+li{
+  display: inline;
+  text-align: center;
+  padding: 5px 10px;
+  margin: 22px;
+  height: fit-content;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+#row {
+  box-sizing: border-box;
+  
+}
+
+/* start recipe pictures */
+.column {
+  float: left;
+  width: 23.33%;
+  padding: 60px;
+  margin-bottom: 35px;
+  height: 300px; 
+}
+
+.row{
+  background-color: rgb(237,250,183);
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+ 
+}
+
+/* end recipe pictures */
+
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+h1{
+  font-family: 'Seaweed Script', cursive;
+  font-size: 50px;
+  text-align: center;
+}
+
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+background-color: rgb(65,82,45);
+}
+
