@@ -1,5 +1,5 @@
 body{
-    background-color:antiquewhite;
+    background-color:rgb(250, 242, 232);
 }
 
 #page-container {
@@ -17,8 +17,8 @@ body{
    
 }
 img{
-    height: 350px;
-    width: 350px;
+    height: 355px;
+    width: 355px;
     text-align: center;
 }
 
@@ -83,20 +83,31 @@ p{
   font-family: 'Montserrat', sans-serif;
 }
 h1{
-  font-family: 'Seaweed Script', cursive;
-  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
 h2{
-  font-family: 'Monteserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 25px;
   font-weight: 900;
   text-align: right;
 }
+h4{
+  font-family: 'Montserrat', sans-serif;
+  
+}
 
+
+/* about me styling home page */
 .home-about{
   background-color:rgb(237,250,183) ;
 }
+.abtme{
+  border-radius: 50%;
+
+}
+
+
 
 #footer {
   position: absolute;
