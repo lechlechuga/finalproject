@@ -1,6 +1,33 @@
 body{
-    background-color:rgb(250, 242, 232);
+    background-color:rgb(65,82,45);
 }
+
+/* fonts */
+p{
+  font-family: 'Montserrat', sans-serif;
+
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 78px;
+  font-weight: 900;
+  text-align: ;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+h4{
+  font-family: 'Montserrat', sans-serif;
+
+}
+/* end Fonts */
+
 
 #page-container {
     position: relative;
@@ -47,19 +74,21 @@ a:link{
   text-decoration: none;
 }
 
+/* end nav styling */
 
+
+
+/* Hero image styling */
 .hero-image {
-  background-image: linear-gradient(rgba(1, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("heirlooms.jpg");
-  height: 100px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url();
+  height: 50%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size:100%;
+  background-size: cover;
   position: relative;
-  padding-top: 20px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  padding: 78px;
+  margin: 25px;
 }
-
 
 .hero-text {
   text-align: center;
@@ -71,12 +100,10 @@ a:link{
 }
 
 
+/* End Hero Image Styling */
 
 
-
-
-
-/* end nav styling */
+/* start recipe section */
 
 #row {
   box-sizing: border-box;
@@ -89,7 +116,7 @@ a:link{
   width: 23.33%;
   padding: 60px;
   margin-bottom: 35px;
-  height: 300px; 
+  height: 470px; 
 }
 
 .row{
@@ -104,11 +131,17 @@ a:link{
   
 }
 
+.blog1{
+  height: 500px;
+  box-shadow: 10px 10px 5px rgb(109, 109, 109);
+}
+
+
 
 /* text on recipes styling */
 .text-block{
   position: relative;
-  bottom: 235px;
+  bottom: 295px;
   right: 15px;
   left: 116px;
   background-color: rgba(250, 242, 232, 0.781);
@@ -120,45 +153,30 @@ a:link{
 /* end recipe pictures */
 
 
-/* fonts */
-p{
-  font-family: 'Montserrat', sans-serif;
-
-}
-h1{
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-}
-h2{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 25px;
-  font-weight: 900;
-  text-align: right;
-}
-h4{
-  font-family: 'Montserrat', sans-serif;
-
-}
-
-
 /* about me styling home page */
 .home-about{
   background-color:rgb(237,250,183) ;
 }
 .abtme{
   border-radius: 50%;
-
+box-shadow: 10px 10px 5px rgb(141, 139, 139);
 }
-#abt-text{
+
+#abtme-text{
+  background-color: brown;
+  display: inline-block;
+}
+
+
+.ftr{
   text-align: right;
 }
-
 
 #footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 2.5rem;            /* Footer height */
-background-color: rgb(65,82,45);
+background-color: rgb(188,205,90);
 }
 
