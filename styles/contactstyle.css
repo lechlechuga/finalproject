@@ -1,5 +1,19 @@
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+
+#header{
+    width:100%;
+    text-align: center;
+    margin-top: 50px;
 
 .container {
+    box-sizing: border-box;
     background-color: rgb(237,250,183);
     width: 500px;
     height: 200px;
