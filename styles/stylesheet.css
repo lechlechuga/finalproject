@@ -1,5 +1,28 @@
+
+/* Universal styles */
 body{
-    background-color:rgb(65,82,45);
+  background-color:rgb(65,82,45);
+  font-family: 'Montserrat', sans-serif;
+}
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#header{
+  width:100%;
+  text-align: center;
+  margin-top: 50px;
+ 
+}
+img{
+  height: 155px;
+  width: 400px;
+  text-align: center;
 }
 
 /* fonts */
@@ -15,7 +38,7 @@ h2{
   font-family: 'Montserrat', sans-serif;
   font-size: 78px;
   font-weight: 900;
-  text-align: ;
+
 }
 
 h3{
@@ -29,26 +52,10 @@ h4{
 /* end Fonts */
 
 
-#page-container {
-    position: relative;
-    min-height: 100vh;
-  }
-  
-  #content-wrap {
-    padding-bottom: 2.5rem;    /* Footer height */
-  }
 
-#header{
-    width:100%;
-    text-align: center;
-    margin-top: 50px;
-   
-}
-img{
-    height: 355px;
-    width: 355px;
-    text-align: center;
-}
+/* End universal styles */
+
+
 
 /* start nav styling */
 nav{
@@ -134,9 +141,9 @@ a:link{
 
 .blog1{
   height: 500px;
-  box-shadow: 10px 10px 5px rgb(109, 109, 109);
+  box-shadow: 10px 10px 5px rgb(84, 100, 53);
 }
-
+/* end  recipe picture styling */
 
 
 /* text on recipes styling */
@@ -151,7 +158,7 @@ a:link{
   width: 127px;
 }
 
-/* end recipe pictures */
+/* end recipe section */
 
 
 /* about me styling home page */
@@ -169,6 +176,10 @@ box-shadow: 10px 10px 5px rgb(141, 139, 139);
 }
 
 
+/* end about me styling */
+
+
+/* start footer styling */
 .ftr{
   text-align: right;
 }
@@ -181,3 +192,109 @@ box-shadow: 10px 10px 5px rgb(141, 139, 139);
 background-color: rgb(188,205,90);
 }
 
+/* end footer styling */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Start recipes page styling */
+
+
+.vidcontainer{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+.vid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 55%;
+  height: 55%;
+  margin-top: 20px;
+  margin-left: 33px;
+
+}
+
+.recipetxt{
+  position: relative;
+  overflow: hidden;
+  background-color: bisque;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Start Contact page styling */
+.contactheader{
+  font-size: 35px;
+  text-align: center;
+  color: bisque;
+}
+/* start contact form styling */
+.container{
+  width: fit-content;
+  
+}
+form{
+  width: 500px;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  background-color: rgb(188,205,90);
+  padding: 20px;
+  margin: 100px;
+  height: 300px;
+}
