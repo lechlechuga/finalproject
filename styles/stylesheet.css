@@ -185,17 +185,13 @@ box-shadow: 10px 10px 5px rgb(84, 100, 53);
 
 
 /* start footer styling */
-.ftr{
-  text-align: right;
-}
 
 #footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 2.5rem;            /* Footer height */
-background-color: rgb(188,205,90);
-}
+  height: 1.8rem;            /* Footer height */
+  background-color: rgb(188,205,90);  
 
 /* end footer styling */
 
@@ -272,12 +268,9 @@ background-color: rgb(188,205,90);
 /* start contact form styling */
 .container{
   width: fit-content;
-  
-  
 }
 form{
   width: 500px;
-  
 }
 input[type=text], select, textarea {
   width: 100%;
