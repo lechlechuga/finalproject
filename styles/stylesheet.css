@@ -162,19 +162,26 @@ a:link{
 /* end recipe section */
 
 
-/* about me styling home page */
-.home-about{
+/* recipe styling home page */
+.home-recipe{
   background-color:rgb(237,250,183) ;
 }
-.abtme{
+.featured{
   height: 320px;
 border-radius: 50%;
-box-shadow: 10px 10px 5px rgb(141, 139, 139);
+box-shadow: 10px 10px 5px rgb(84, 100, 53);
+}
+.recipe-text{
+  float: right;
+  width: 500px;
+
+
+  
 }
 
 
 
-/* end about me styling */
+/* end recipe styling */
 
 
 /* start footer styling */
@@ -228,9 +235,6 @@ background-color: rgb(188,205,90);
 
 
 
-
-
-
 /* Start recipes page styling */
 
 .grid-container {
@@ -254,13 +258,7 @@ background-color: rgb(188,205,90);
   
 }
 
-
-
-
-
-
-
-
+/* end recipes page styling */
 
 
 
