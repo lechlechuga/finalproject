@@ -79,7 +79,6 @@ li{
 
 a:link{
   text-decoration: none;
-
 }
 
 /* end nav styling */
@@ -88,7 +87,7 @@ a:link{
 
 /* Hero image styling */
 .hero-image {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/heirlooms.jpg");
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/heirlooms.jpg");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
