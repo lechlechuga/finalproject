@@ -79,6 +79,7 @@ li{
 
 a:link{
   text-decoration: none;
+
 }
 
 /* end nav styling */
@@ -87,7 +88,7 @@ a:link{
 
 /* Hero image styling */
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/heirlooms.jpg);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/heirlooms.jpg");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -121,15 +122,17 @@ a:link{
 /* start recipe pictures */
 .column {
   float: left;
-  width: 23.33%;
-  padding: 56px;
+  width: 26.33%;
+  padding: 2.3rem;
   margin-bottom: 35px;
-  height: 470px; 
+  height: 470px;
+  align-content: center;
 }
 
 .row{
   background-color: rgb(237,250,183);
-  width: 1333px;
+  box-align:center;
+  align-content: center;
  
 }
 
@@ -143,20 +146,24 @@ a:link{
 .blog1{
   height: 500px;
   box-shadow: 10px 10px 5px rgb(84, 100, 53);
+  align-content: center;
+  clear: both;
 }
 /* end  recipe picture styling */
 
 
 /* text on recipes styling */
 .text-block{
+  display: inline-flex;
   position: relative;
   bottom: 299px;
-  right: 15px;
-  left: 116px;
+  right: 50px;
+  left: 140px;
   background-color: rgba(250, 242, 232, 0.781);
   color: rgb(65,82,45);
   text-align: center;
-  width: 127px;
+  align-content: center;
+  width: 6rem;
 }
 
 /* end recipe section */
@@ -165,18 +172,30 @@ a:link{
 /* recipe styling home page */
 .home-recipe{
   background-color:rgb(237,250,183) ;
+  float: left;
+  width: 50%;
+  margin: 1rem;
+  margin-bottom: 5rem;
+}
+.homerecipeheader{
+  text-align: center;
 }
 .featured{
-  height: 320px;
+height: 320px;
 border-radius: 50%;
 box-shadow: 10px 10px 5px rgb(84, 100, 53);
+margin-left: 111px;
+margin-bottom: 25px;
 }
 .recipe-text{
+  background-color: rgb(237,250,183) ;
   float: right;
-  width: 500px;
-
-
-  
+  width: 44%;
+  margin: 1rem;
+  position:relative;
+  display: flex;
+  align-content: center;
+  padding: 1rem;
 }
 
 
@@ -187,11 +206,18 @@ box-shadow: 10px 10px 5px rgb(84, 100, 53);
 /* start footer styling */
 
 #footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   height: 1.8rem;            /* Footer height */
-  background-color: rgb(188,205,90);  
+  background-color: rgb(188,205,90); 
+  margin-top: 1rem;
+}
+.footicon{
+  max-width:fit-content;
+  
+}
+
 
 /* end footer styling */
 
@@ -207,20 +233,21 @@ box-shadow: 10px 10px 5px rgb(84, 100, 53);
   position: relative;
   overflow: hidden;
   width: 100%;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  float: left; 
 }
-.vid {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  margin-top: 20px;
-  margin-left: 33px;
+.aboutcolumn {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  
+}
 
+.aboutrow::after {
+  content: "";
+  clear: both;
+  display: table;
 }
+
 
 /* end about me page styling */
 
@@ -268,7 +295,11 @@ box-shadow: 10px 10px 5px rgb(84, 100, 53);
 /* start contact form styling */
 .container{
   width: fit-content;
+  background-color: rgb(188,205,90);
+  padding: 2rem;
+  margin-left: 20%;
 }
+
 form{
   width: 500px;
 }
@@ -296,9 +327,9 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-.container {
+/* .container {
   background-color: rgb(188,205,90);
   padding: 20px;
   margin: 100px;
   height: 300px;
-}
+} */
