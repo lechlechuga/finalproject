@@ -236,6 +236,9 @@ height: max-content;
 .pictureabout{
   margin-left: 455px;
 }
+.aboutmeheadertxt{
+  color:rgb(65,82,45);
+}
 .vidcontainer{
   position: relative;
   overflow: hidden;
